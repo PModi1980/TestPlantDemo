@@ -1,0 +1,12 @@
+﻿put EveryImageLocation((text:"day")) into MyDay
+Click item 2 of MyDay
+wait 1
+Click text:"5"
+
+Click text:"month"
+wait 1
+Click text:"feb"
+
+Click text:"year"
+wait 1
+Click text:"2010"

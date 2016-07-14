@@ -1,0 +1,30 @@
+﻿
+waitfor 20.0,"refresh"
+Set the SearchRectangle to ("TL","BR")
+Click text:"first name"
+wait 2
+typetext "John"
+wait 2
+Click text:"surname"
+wait 2
+typetext "Smith"
+wait 2
+
+enterEmailAddr
+
+wait 2
+Click (Text:"new password")
+
+typetext "Qw3rT4ry"
+
+DoB
+wait 2
+GenderOpt
+
+Wait "3"
+
+
+
+
+
+

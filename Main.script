@@ -1,0 +1,9 @@
+﻿
+repeat with each item MyBrowser of ("chrome","firefox")
+	OpenBrowsers MyBrowser
+	OpenWebPage 
+	RegisterNewAcc
+	closeBrowser
+end repeat
+
+

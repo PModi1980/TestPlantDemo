@@ -1,0 +1,15 @@
+﻿params MyBrowser
+typetext windowsKey, "r"
+waitfor 20,"header"
+typetext MyBrowser, return
+WaitFor 20,"refresh"
+
+if imagefound("refresh")
+	logSuccess "I have found the refresh image"
+else
+	logwarning "Sorry image not found"
+end if
+
+
+
+

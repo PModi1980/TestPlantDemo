@@ -1,0 +1,12 @@
+﻿put EveryImageLocation((Text:"Email")) into MyEmail
+
+//log MyEmail
+wait 1
+Click item 2 of MyEmail
+wait 1
+typetext "johnSmith_Demo@gmail.com"
+wait 1
+Click item 3 of MyEmail
+wait 1
+typetext "johnSmith_Demo@gmail.com"
+

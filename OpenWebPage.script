@@ -1,0 +1,18 @@
+﻿params MyBrowser
+
+if myBrowser = "chrome" then
+	typetext commandkey, "l"
+else
+	Click (Image:"URL", WaitFor:20.0)
+end if
+
+TypeText "www.facebook.com", return
+waitfor 20,"refresh"
+
+
+
+
+
+
+
+

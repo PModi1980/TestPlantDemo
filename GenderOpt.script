@@ -1,0 +1,2 @@
+﻿put EveryImageLocation((Text:"male")) into MyGen
+Click item 2 of MyGen
