@@ -1,0 +1,4 @@
+﻿2016-07-14 16:12:22.509 +0100	START		Running MainScript.script
+2016-07-14 16:12:22.970 +0100	click	chrome	at (419, 1774)	1	on_mainscript	MainScript.script
+2016-07-14 16:12:23.194 +0100	EndTestCase		(Duration:"0.682111", Errors:"0", Exceptions:"0", StartTime:"2016-07-14 16:12:22 +0100", Successes:"1", TestCase:"MainScript.script", Warnings:"0")
+2016-07-14 16:12:23.199 +0100	SUCCESS		Execution Time 0:00:00 MainScript.script
