@@ -1,3 +1,4 @@
 ﻿Click "chrome"
+waitfor 20,"refresh"
 
 
