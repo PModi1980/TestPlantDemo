@@ -2,5 +2,5 @@
 waitfor 20,"refresh"
 click "Firefox"
 log "hello"
-
+waitfor "Firefox"
 
