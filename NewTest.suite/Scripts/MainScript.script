@@ -2,6 +2,7 @@
 waitfor 20,"refresh"
 click "Firefox"
 log "hello"
-waitfor "Firefox"
+waitfor 20,"refresh"
 log "this was successful"
 
+//Set the SearchRectangle to ("calc_A","calc_B")
