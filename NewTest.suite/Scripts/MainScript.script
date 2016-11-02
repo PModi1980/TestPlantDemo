@@ -2,7 +2,8 @@
 waitfor 20,"refresh"
 click "Firefox"
 log "hello"
-waitfor 20,"refresh"
+waitfor 20,"Firefox"
 log "this was successful"
+typetext altKey,"f4"
 
-//Set the SearchRectangle to ("calc_A","calc_B")
+
