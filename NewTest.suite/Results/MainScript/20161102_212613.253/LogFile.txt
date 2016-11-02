@@ -1,0 +1,11 @@
+﻿2016-11-02 21:26:13.254 +0000	START		Running MainScript.script
+2016-11-02 21:26:14.207 +0000	click	chrome	at (300, 1765)	1	on_mainscript	MainScript.script
+2016-11-02 21:26:17.088 +0000	waitfor	refresh	found at (131, 79)	2	on_mainscript	MainScript.script
+2016-11-02 21:26:17.127 +0000	typetext		[windowsAltKey][F4]	3	on_mainscript	MainScript.script
+2016-11-02 21:26:18.381 +0000	click	Firefox	at (648, 1763)	4	on_mainscript	MainScript.script
+2016-11-02 21:26:18.445 +0000	Log		hello	5	on_mainscript	MainScript.script
+2016-11-02 21:26:18.781 +0000	waitfor	Firefox	found at (648, 1763)	6	on_mainscript	MainScript.script
+2016-11-02 21:26:18.852 +0000	Log		this was successful	7	on_mainscript	MainScript.script
+2016-11-02 21:26:19.108 +0000	typetext		[windowsAltKey][F4]	8	on_mainscript	MainScript.script
+2016-11-02 21:26:19.481 +0000	EndTestCase		(Duration:"6.22495", Errors:"0", Exceptions:"0", StartTime:"2016-11-02 21:26:13 +0000", Successes:"1", TestCase:"MainScript.script", Warnings:"0")
+2016-11-02 21:26:19.484 +0000	SUCCESS		Execution Time 0:00:06 MainScript.script
