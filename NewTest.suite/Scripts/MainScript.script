@@ -1,9 +1,10 @@
 ﻿Click "chrome"
 waitfor 20,"refresh"
+typetext altKey,f4
 click "Firefox"
 log "hello"
 waitfor 20,"Firefox"
 log "this was successful"
-typetext altKey,"f4"
+typetext altKey,f4
 
 
