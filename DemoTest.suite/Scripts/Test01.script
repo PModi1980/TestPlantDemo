@@ -1,0 +1,7 @@
+﻿Connect "Win10Loc"
+typeText windowskey,"r"
+set the searchrectangle to (0,1137,776,1918)
+waitfor 20,text:"type the name of a program"
+TypeText "chrome",return
+set the searchrectangle to fullscreen
+waitfor 20,"refresh"

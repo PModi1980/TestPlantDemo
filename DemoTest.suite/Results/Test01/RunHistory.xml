@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Test01">
+ <run>
+  <RunDate>2017-06-01 15:59:35.077 +0100</RunDate>
+  <Status>Failure</Status>
+  <Duration>1.776812</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20170601_155935.077/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: refresh</ErrorMessage>
+ </run>
+</runHistory>

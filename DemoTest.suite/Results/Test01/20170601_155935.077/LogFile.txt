@@ -1,0 +1,10 @@
+﻿2017-06-01 15:59:35.078 +0100	START		Running Test01.script
+2017-06-01 15:59:35.144 +0100	connect		Win10Loc:(null)	1	on_test01	Test01.script
+2017-06-01 15:59:35.171 +0100	typetext		[windowsKey]r	2	on_test01	Test01.script
+2017-06-01 15:59:35.194 +0100	set		SEARCHRECTANGLE = (0,1137,776,1918)	3	on_test01	Test01.script
+2017-06-01 15:59:35.621 +0100	waitfor	(TEXT:"type the name of a program")	found at (263, 1541)	4	on_test01	Test01.script
+2017-06-01 15:59:35.962 +0100	typetext		chrome[return]	5	on_test01	Test01.script
+2017-06-01 15:59:35.965 +0100	set		SEARCHRECTANGLE = fullscreen	6	on_test01	Test01.script
+2017-06-01 15:59:35.970 +0100	Exception	refresh	Could Not Open Image: refresh	7	on_test01	Test01.script
+2017-06-01 15:59:36.855 +0100	EndTestCase		(Duration:"1.77495", Errors:"1", Exceptions:"1", StartTime:"2017-06-01 15:59:35 +0100", Successes:"0", TestCase:"Test01.script", Warnings:"0")
+2017-06-01 15:59:37.051 +0100	FAILURE	Screen_Error.png	File Not Found waitfor Error - Could Not Open Image: refresh -- Execution Time 0:00:01 Test01.script
