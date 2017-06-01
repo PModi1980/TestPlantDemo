@@ -1,0 +1,8 @@
+﻿//test application working with GIT hub...
+
+Connect "Win10Loc"
+typetext windowskey,"r"
+waitfor 20,text:"type the name of a program"
+typetext "chrome",return
+waitfor 20, "refreshBTN"
+
