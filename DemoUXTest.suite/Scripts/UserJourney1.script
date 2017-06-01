@@ -2,7 +2,16 @@
 
 Connect "Win10Loc"
 typetext windowskey,"r"
+set the searchrectangle to (0,1152,877,1916)
 waitfor 20,text:"type the name of a program"
 typetext "chrome",return
+set the searchrectangle to fullscreen
 waitfor 20, "refreshBTN"
+Click "URL"
+click "URL"
+typetext "www.facebook.com",return
+wait 4
+waitfor 20,"refreshBTN"
+click "CloseBTN"
+
 

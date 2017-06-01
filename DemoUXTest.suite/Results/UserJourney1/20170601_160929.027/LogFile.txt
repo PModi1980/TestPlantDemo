@@ -1,0 +1,8 @@
+﻿2017-06-01 16:09:29.028 +0100	START		Running UserJourney1.script
+2017-06-01 16:09:29.095 +0100	connect		Win10Loc:(null)	3	on_userjourney1	UserJourney1.script
+2017-06-01 16:09:29.121 +0100	typetext		[windowsKey]r	4	on_userjourney1	UserJourney1.script
+2017-06-01 16:10:15.040 +0100	waitfor	(TEXT:"type the name of a program")	found at (263, 1541)	5	on_userjourney1	UserJourney1.script
+2017-06-01 16:10:15.132 +0100	typetext		chrome[return]	6	on_userjourney1	UserJourney1.script
+2017-06-01 16:10:17.580 +0100	waitfor	refreshBTN	found at (131, 80)	7	on_userjourney1	UserJourney1.script
+2017-06-01 16:10:18.697 +0100	EndTestCase		(Duration:"49.667085", Errors:"0", Exceptions:"0", StartTime:"2017-06-01 16:09:29 +0100", Successes:"1", TestCase:"UserJourney1.script", Warnings:"0")
+2017-06-01 16:10:18.717 +0100	SUCCESS		Execution Time 0:00:49 UserJourney1.script

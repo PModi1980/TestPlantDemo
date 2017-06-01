@@ -1,0 +1,15 @@
+﻿2017-06-01 16:15:58.821 +0100	START		Running UserJourney1.script
+2017-06-01 16:15:58.883 +0100	connect		Win10Loc:(null)	3	on_userjourney1	UserJourney1.script
+2017-06-01 16:15:58.908 +0100	typetext		[windowsKey]r	4	on_userjourney1	UserJourney1.script
+2017-06-01 16:15:58.935 +0100	set		SEARCHRECTANGLE = (0,1152,877,1916)	5	on_userjourney1	UserJourney1.script
+2017-06-01 16:15:59.406 +0100	waitfor	(TEXT:"type the name of a program")	found at (263, 1542)	6	on_userjourney1	UserJourney1.script
+2017-06-01 16:15:59.698 +0100	typetext		chrome[return]	7	on_userjourney1	UserJourney1.script
+2017-06-01 16:15:59.700 +0100	set		SEARCHRECTANGLE = fullscreen	8	on_userjourney1	UserJourney1.script
+2017-06-01 16:16:02.116 +0100	waitfor	refreshBTN	found at (131, 80)	9	on_userjourney1	UserJourney1.script
+2017-06-01 16:16:02.485 +0100	click	URL	at (412, 83)	10	on_userjourney1	UserJourney1.script
+2017-06-01 16:16:03.336 +0100	click	URL	at (412, 83)	11	on_userjourney1	UserJourney1.script
+2017-06-01 16:16:04.256 +0100	typetext		www.facebook.com[return]	12	on_userjourney1	UserJourney1.script
+2017-06-01 16:16:04.470 +0100	waitfor	refreshBTN	found at (131, 80)	13	on_userjourney1	UserJourney1.script
+2017-06-01 16:16:05.157 +0100	click	CloseBTN	at (2569, 24)	14	on_userjourney1	UserJourney1.script
+2017-06-01 16:16:06.011 +0100	EndTestCase		(Duration:"7.187962", Errors:"0", Exceptions:"0", StartTime:"2017-06-01 16:15:58 +0100", Successes:"1", TestCase:"UserJourney1.script", Warnings:"0")
+2017-06-01 16:16:06.025 +0100	SUCCESS		Execution Time 0:00:07 UserJourney1.script
